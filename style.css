@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+#main  {
+    width: 100%;
+    /* min-height: 100vh; */
+    overflow: hidden;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    z-index: 10000;
+}
+nav h1 {
+    font-weight: 300;
+    font-size: 1.3em;
+    mix-blend-mode: difference;
+    color: #000000;
+    text-transform: uppercase;
+    word-spacing: -3px;
+}
+
+/* nav done */
+
+
+#anim-cnt {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* gap: 2%; */
+    position: relative;
+}
+
+.img-cnt {
+    width: 450px;
+    height: 300px;
+    background-color:#FF9700;
+    position: absolute ;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+}
+
+.img-cnt img {
+    height: 100%;
+    width: 100%;
+}
+
+#img-1 {
+    left: 18%;
+    top: 18%;
+}
+#img-2 {
+    left: 18%;
+    top: 50%;
+}
+#img-3 {
+    left: 18%;
+    top: calc(100% - 18%);
+}
+#img-4 {
+    left: 50%;
+    top: 18%;
+}
+#img-6 {
+    left: 50%;
+    top: calc(100% - 18%);
+}
+
+#img-7 {
+    left: calc(100% - 18%);
+    top: 18%;
+}
+#img-7 {
+    left: calc(100% - 18%);
+    top: 18%;
+}
+#img-8 {
+    left: calc(100% - 18%);
+    top: 50%;
+}
+
+#img-9 {
+    left: calc(100% - 18%);
+    top: calc(100% - 18%);
+}
+
+#img-5 {
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.h1-div {
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+   
+
+}
+.h1-div h1 {
+    font-size: 5.5em;
+    text-transform: uppercase;
+    /* opacity: 0; */
+}
+
+#page-2 {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#cntn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#cntn h1 {
+    position: absolute;
+    z-index: 100;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: difference;
+    
+}
+
+#cntn .vid-1 {
+    filter: grayscale();
+}
